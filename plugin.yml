@@ -1,0 +1,20 @@
+name: ShopTeleport
+main: com.gmail.nomad856.minecraft.Main
+version: 2.2
+
+commands:
+   setshop:
+      description: set a shop warp
+      usage: /setshop
+   shop:
+      description: Teleport back to shop
+      usage: /shop <playername>
+   delshop:
+      description: Delete current shop
+      usage: /delshop
+   help:
+      description: shows commands and usage
+      usage: /sthelp
+   streload:
+      description: reload's config file
+      usage: /streload
